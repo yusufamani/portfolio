@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="262.999" height="241.808" viewBox="0 0 262.999 241.808">
+  <defs>
+    <filter id="Union_5" x="125" y="0" width="137.999" height="114.808" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_5-2" x="0" y="127" width="159.999" height="114.808" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_8636" data-name="Group 8636" transform="translate(-1686.589 -9384.5)">
+    <g id="Group_8622" data-name="Group 8622" transform="translate(1811.589 9384.5)">
+      <g transform="matrix(1, 0, 0, 1, -125, 0)" filter="url(#Union_5)">
+        <path id="Union_5-3" data-name="Union 5" d="M32.5,108.308A32.5,32.5,0,0,1,0,75.808V60.94A32.353,32.353,0,0,1,6.21,41.829V0L34.687,28.44H99a32.5,32.5,0,0,1,32.5,32.5V75.808a32.5,32.5,0,0,1-32.5,32.5Z" transform="translate(256.5 108.31) rotate(180)" fill="#f3b443"/>
+      </g>
+      <path id="Path_8969" data-name="Path 8969" d="M-1876.554,166.056h-82.231" transform="translate(1980.853 -143.825)" fill="none" stroke="#fff" stroke-width="8"/>
+      <path id="Path_8970" data-name="Path 8970" d="M-1901.758,166.056h-57.027" transform="translate(2006.058 -126.884)" fill="none" stroke="#fff" stroke-width="6"/>
+      <path id="Path_8971" data-name="Path 8971" d="M-1918.573,166.056h-40.212" transform="translate(2022.872 -109.942)" fill="none" stroke="#fff" stroke-width="4"/>
+    </g>
+    <g id="Group_8621" data-name="Group 8621" transform="translate(1686.589 9511.5)">
+      <g transform="matrix(1, 0, 0, 1, 0, -127)" filter="url(#Union_5-2)">
+        <path id="Union_5-4" data-name="Union 5" d="M7.249,67.83A32.361,32.361,0,0,1,0,47.368V32.5A32.5,32.5,0,0,1,32.5,0H121a32.5,32.5,0,0,1,32.5,32.5V47.368a32.5,32.5,0,0,1-32.5,32.5H40.49L7.249,108.308Z" transform="translate(0 127)" fill="#ea9195"/>
+      </g>
+      <path id="Path_8969-2" data-name="Path 8969" d="M-1958.785,166.056H-1904" transform="translate(1985.984 -143.825)" fill="none" stroke="#fff" stroke-width="6"/>
+      <path id="Path_8970-2" data-name="Path 8970" d="M-1958.785,166.056h78.447" transform="translate(1985.984 -126.884)" fill="none" stroke="#fff" stroke-width="6"/>
+      <path id="Path_8971-2" data-name="Path 8971" d="M-1958.784,166.056h31.511" transform="translate(1985.984 -109.942)" fill="none" stroke="#fff" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117.5" height="109.5" viewBox="0 0 117.5 109.5">
+  <defs>
+    <filter id="Rectangle_1414" x="0" y="41" width="68.5" height="68.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1415" x="31" y="0" width="86.5" height="86.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_8644" data-name="Group 8644" transform="translate(-1973.588 -9891)">
+    <g transform="matrix(1, 0, 0, 1, 1973.59, 9891)" filter="url(#Rectangle_1414)">
+      <g id="Rectangle_1414-2" data-name="Rectangle 1414" transform="translate(0 41)" fill="none" stroke="#cc3730" stroke-width="3">
+        <rect width="62" height="62" stroke="none"/>
+        <rect x="1.5" y="1.5" width="59" height="59" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1973.59, 9891)" filter="url(#Rectangle_1415)">
+      <g id="Rectangle_1415-2" data-name="Rectangle 1415" transform="translate(31)" fill="none" stroke="#ea9195" stroke-width="3">
+        <rect width="80" height="80" stroke="none"/>
+        <rect x="1.5" y="1.5" width="77" height="77" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
