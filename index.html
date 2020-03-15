@@ -48,21 +48,21 @@
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
 
-        <li class="nav-item" style="padding-top: 7px; padding-right: 70px;">
+        <li class="nav-item" style="padding-top: 7px; padding-right: 40px;">
           <a href="https://www.linkedin.com/in/yusufamani/" target="_blank" class="fa fa-linkedin" ></a>
         </li>
 
-        <li class="nav-item" style="padding-top: 7px; padding-right: 30px;">
+        <li class="nav-item" style="padding-top: 7px; padding-right: 1px;">
           <a href="https://dribbble.com/yusufamani/buckets" target="_blank" class="fa fa-dribbble"></a>
         </li>
 
-        <li  style="margin-top: -5px; padding-right: 30px;">
+        <li  style="margin-top: -5px; padding-right: 1px;">
             <a href="https://github.com/yusufamani" target="_blank" class="btn btn-social-icon btn-github ">
                 <span class="fa fa-github"></span>
             </a>
         </li>
 
-        <li class="nav-item" style="padding-top: 7px; padding-right: 55px;">
+        <li class="nav-item" style="padding-top: 7px; padding-right: 40px;">
           <a href="https://www.behance.net/yusufamani" target="_blank" class="fa fa-behance"></a>
         </li>
 
@@ -70,9 +70,6 @@
           <a class="nav-link text-blue" href="about.html">About</a>
         </li>
      
-        <li class="nav-item">
-          <a class="nav-link text-blue" href="portfolio.html">Portfolio</a>
-        </li>
 
       </ul>
     </div>
@@ -349,7 +346,7 @@
           <div class="card-body text-center px-4 py-5">
             <i class="ti-panel icon mb-5 d-inline-block"></i>
             <h4 class="mb-4">Web Development</h4>
-            <p>I love coding products from scratch and bringing my ideas to life through user friendly web and mobile applications.  I am fluent in HTML, CSS, Bootstrap, and Github.</p>
+            <p>I love coding products from scratchand bringing my ideas to life through user friendly web and mobile applications.  I am fluent in HTML, CSS, Bootstrap, and Github.</p>
           </div>
         </div>
       </div>
@@ -366,11 +363,29 @@
         <h2 class="section-title">Portfolio</h2>
       </div>
     </div>
-    <div class="row shuffle-wrapper">
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="btn-group btn-group-toggle justify-content-center d-flex" data-toggle="buttons">
+          <label class="btn btn-sm btn-primary active">
+            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="webdev" />WEB DEVELOPMENT
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="3DCG" />3D COMPUTER GRAPHICS
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="UXUI" />UX/UI
+          </label>
+        </div>
+      </div>
+    </div>
 
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="row shuffle-wrapper">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;UXUI&quot;]">
         <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/UXUI/UXUI_proj2_cover.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <img src="images/portfolio/UXUI/UXUI_proj2_cover.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="portfolio_uxui_proj2.html">view project</a>
@@ -378,10 +393,9 @@
           </div>
         </div>
       </div>
-
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;UXUI&quot;]">
         <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/UXUI/Aquarium_Landing_Page_Cover.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <img src="images/portfolio/UXUI/Hero Section.svg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="portfolio_uxui_proj1.html">view project</a>
@@ -389,12 +403,9 @@
           </div>
         </div>
       </div>
-
-
-
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;3DCG&quot;]">
         <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/3DCG/transcend2.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <img src="images/portfolio/3DCG/transcend2.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="portfolio_3DCG_proj1.html">view project</a>
@@ -402,13 +413,9 @@
           </div>
         </div>
       </div>
-
-
-
-
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;UXUI&quot;,&quot;webdev&quot;]">
         <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/WebDev/SeniorProj-Cover.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <img src="images/portfolio/WebDev/SeniorProj-Cover.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="portfolio_WebDev_proj2.html">view project</a>
@@ -416,22 +423,19 @@
           </div>
         </div>
       </div>
-
-
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;UXUI&quot;]">
         <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/UXUI/UXUI_proj3_cover.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <img src="images/portfolio/UXUI/UXUI_proj3_cover.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="portfolio_uxui_proj3.html">view projec</a>
+              <a class="btn btn-light btn-sm" href="portfolio_uxui_proj3.html">view project</a>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;UXUI&quot;,&quot;webdev&quot;]">
         <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/WebDev/WebDev_proj1_cover.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <img src="images/portfolio/WebDev/WebDev_proj1_cover.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="portfolio_WebDev_proj1.html">view project</a>
@@ -439,10 +443,9 @@
           </div>
         </div>
       </div>
-
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;3DCG&quot;]">
         <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/3DCG/bedroom6.jpg" alt="portfolio-image" class="img-fluid rounded w-100">
+          <img src="images/portfolio/3DCG/bedroom6.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="portfolio_3DCG_proj2.html">view project</a>
@@ -450,10 +453,9 @@
           </div>
         </div>
       </div>
-
-     <div class="col-lg-4 col-6 mb-4 shuffle-item">
+     <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;3DCG&quot;]">
         <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/3DCG/room2.jpg" alt="portfolio-image" class="img-fluid rounded w-100">
+          <img src="images/portfolio/3DCG/room2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="portfolio_3DCG_proj3.html">view project</a>
@@ -461,10 +463,6 @@
           </div>
         </div>
       </div>
-
-
-
-
 
     </div>
   </div>
@@ -491,7 +489,11 @@
           <h4 class="text-white">Jesica Gomez</h4>
           <h6 class="text-light mb-4">CEO, Funder</h6>
         </div>
+
+        <!-- DONT NEED MORE THAN 1 TESTIMONIAL AS OF NOW --> 
+        
         <!-- slider-item -->
+        <!--
         <div class="text-center testimonial-content">
           <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
           <p class="text-blue mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -505,7 +507,9 @@
           <h4 class="text-blue">Jesica Gomez</h4>
           <h6 class="text-blue mb-4">CEO, Funder</h6>
         </div>
+      -->
         <!-- slider-item -->
+        <!--
         <div class="text-center testimonial-content">
           <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
           <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -519,16 +523,16 @@
           <h4 class="text-white">Jesica Gomez</h4>
           <h6 class="text-light mb-4">CEO, Funder</h6>
         </div>
+
+      -->
+
+
       </div>
     </div>
   </div>
   <!-- bg shapes -->
   <img src="images/backgrounds/map.png" alt="map" class="img-fluid bg-map">
-  <img src="images/illustrations/dots-group-v.png" alt="bg-shape" class="img-fluid bg-shape-1">
-  <img src="images/illustrations/leaf-orange.png" alt="bg-shape" class="img-fluid bg-shape-2">
-  <img src="images/illustrations/dots-group-sm.png" alt="bg-shape" class="img-fluid bg-shape-3">
-  <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape" class="img-fluid bg-shape-4">
-  <img src="images/illustrations/leaf-cyan.png" alt="bg-shape" class="img-fluid bg-shape-5">
+
 </section>
 <!-- /testimonial -->
 
