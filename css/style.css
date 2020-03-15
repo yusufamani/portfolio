@@ -977,8 +977,8 @@ blockquote {
   white-space: nowrap;
   display: inline-block;
   position: relative;
-  animation-duration: 15s;
-  animation-timing-function: steps(25, end);
+  animation-duration: 12s;
+  animation-timing-function: steps(20, end);
   animation-iteration-count: infinite;
 }
 .text_1::after, .text_2::after {
@@ -996,7 +996,7 @@ blockquote {
   }
   
   60%, 90% {
-    width: 8em;
+    width: 5.6em;
   }
 }
 @keyframes text1 {
