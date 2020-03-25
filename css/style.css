@@ -957,6 +957,7 @@ blockquote {
 @media (max-width:629px) {
   img.optionalstuff {
     display: none;
+    line-height: 10px;
   }
 }
 
